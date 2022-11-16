@@ -1,0 +1,4 @@
+# Project exclude paths
+/languages/Glot/classes_gen/
+/languages/Glot/generator/classes_gen/
+/languages/Glot/sandbox/classes_gen/
