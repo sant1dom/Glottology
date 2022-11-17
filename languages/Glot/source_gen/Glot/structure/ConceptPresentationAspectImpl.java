@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ConceptHub;
   private ConceptPresentation props_Content;
   private ConceptPresentation props_DContent;
+  private ConceptPresentation props_DForm;
   private ConceptPresentation props_Element;
   private ConceptPresentation props_Entity;
   private ConceptPresentation props_Feature;
@@ -43,7 +44,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Content:
         if (props_Content == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
           props_Content = cpb.create();
         }
         return props_Content;
@@ -55,6 +55,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DContent = cpb.create();
         }
         return props_DContent;
+      case LanguageConceptSwitch.DForm:
+        if (props_DForm == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_DForm = cpb.create();
+        }
+        return props_DForm;
       case LanguageConceptSwitch.Element:
         if (props_Element == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

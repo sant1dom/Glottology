@@ -106,7 +106,7 @@
     <node concept="1TJgyj" id="1W5CrHtynKI" role="1TKVEi">
       <property role="IQ2ns" value="2235370616159566894" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="ffeatures" />
+      <property role="20kJfa" value="features" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="1W5CrHtynKF" resolve="Feature" />
     </node>
@@ -218,16 +218,16 @@
     <node concept="1TJgyj" id="4I3$LmE$S$7" role="1TKVEi">
       <property role="IQ2ns" value="5441354496059083015" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="dContent" />
+      <property role="20kJfa" value="contents" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4I3$LmE$_gd" resolve="DContent" />
+      <ref role="20lvS9" node="4I3$LmEKdfd" resolve="Content" />
     </node>
   </node>
   <node concept="1TIwiD" id="3iL_HZc_9R0">
     <property role="EcuMT" value="3796981848804203968" />
     <property role="TrG5h" value="Form" />
     <property role="3GE5qa" value="Form Concern" />
-    <ref role="1TJDcQ" node="4I3$LmEKdfd" resolve="Content" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3iL_HZc_9Rj" role="1TKVEi">
       <property role="IQ2ns" value="3796981848804203987" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -244,6 +244,9 @@
       <property role="IQ2ns" value="3796981848804619431" />
       <property role="20kJfa" value="entity" />
       <ref role="20lvS9" node="1W5CrHtynKA" resolve="Entity" />
+    </node>
+    <node concept="PrWs8" id="5KsOgWzfQzK" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3iL_HZc_9R3">
@@ -299,8 +302,8 @@
     <node concept="1TJgyj" id="4I3$LmE$Syj" role="1TKVEi">
       <property role="IQ2ns" value="5441354496059082899" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="conceptHub" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="4I3$LmE$Sym" resolve="ConceptHub" />
     </node>
   </node>
@@ -320,14 +323,22 @@
     <property role="EcuMT" value="5441354496062051277" />
     <property role="3GE5qa" value="Content Concern" />
     <property role="TrG5h" value="Content" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="4I3$LmEKdfe" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="3g7559ArXg6" role="1TKVEl">
-      <property role="IQ2nx" value="3748987558947705862" />
-      <property role="TrG5h" value="isIndex" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+  </node>
+  <node concept="1TIwiD" id="5KsOgWzePfP">
+    <property role="EcuMT" value="6637409813783073781" />
+    <property role="3GE5qa" value="Content Concern" />
+    <property role="TrG5h" value="DForm" />
+    <ref role="1TJDcQ" node="4I3$LmEKdfd" resolve="Content" />
+    <node concept="1TJgyj" id="5KsOgWzePfQ" role="1TKVEi">
+      <property role="IQ2ns" value="6637409813783073782" />
+      <property role="20kJfa" value="form" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3iL_HZc_9R0" resolve="Form" />
     </node>
   </node>
 </model>

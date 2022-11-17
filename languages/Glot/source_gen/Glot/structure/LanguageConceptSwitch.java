@@ -13,13 +13,14 @@ public final class LanguageConceptSwitch {
   public static final int ConceptHub = 1;
   public static final int Content = 2;
   public static final int DContent = 3;
-  public static final int Element = 4;
-  public static final int Entity = 5;
-  public static final int Feature = 6;
-  public static final int Form = 7;
-  public static final int Page = 8;
-  public static final int Reference = 9;
-  public static final int System = 10;
+  public static final int DForm = 4;
+  public static final int Element = 5;
+  public static final int Entity = 6;
+  public static final int Feature = 7;
+  public static final int Form = 8;
+  public static final int Page = 9;
+  public static final int Reference = 10;
+  public static final int System = 11;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x28e4957b85994380L, 0x9a2de36d611c13b9L);
@@ -27,6 +28,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x4b839315aa938896L, ConceptHub);
     builder.put(0x4b839315aac0d3cdL, Content);
     builder.put(0x4b839315aa92540dL, DContent);
+    builder.put(0x5c1cd10f233b53f5L, DForm);
     builder.put(0x34b196dfcc949dc3L, Element);
     builder.put(0x1f05a1bb5d897c26L, Entity);
     builder.put(0x1f05a1bb5d897c2bL, Feature);
