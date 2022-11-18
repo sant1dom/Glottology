@@ -1,4 +1,4 @@
--- generated from 'Amazon' (ver 1.1)
+-- generated from 'Ecommerce' (ver 1.1)
 
 CREATE TABLE product (
   id VARCHAR(255) PRIMARY KEY,

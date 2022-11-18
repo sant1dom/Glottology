@@ -56,7 +56,7 @@
     </language>
   </registry>
   <node concept="12zdQo" id="3AgXDBUoItF">
-    <property role="TrG5h" value="Amazon" />
+    <property role="TrG5h" value="Ecommerce" />
     <property role="12zSj7" value="1" />
     <property role="33YiV4" value="1" />
     <node concept="3S9gGv" id="WcU1PiNzYR" role="3S9fxq">
