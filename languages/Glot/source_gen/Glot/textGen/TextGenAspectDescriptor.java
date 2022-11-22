@@ -25,8 +25,14 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     switch (myIndex.index(concept)) {
       case LanguageConceptSwitch.Attribute:
         return new Attribute_TextGen();
+      case LanguageConceptSwitch.ConceptHub:
+        return new ConceptHub_TextGen();
       case LanguageConceptSwitch.Entity:
         return new Entity_TextGen();
+      case LanguageConceptSwitch.Index:
+        return new Index_TextGen();
+      case LanguageConceptSwitch.Individual:
+        return new Individual_TextGen();
       case LanguageConceptSwitch.Reference:
         return new Reference_TextGen();
       case LanguageConceptSwitch.System:

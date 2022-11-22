@@ -8,6 +8,13 @@
   <imports />
   <registry>
     <language id="28e4957b-8599-4380-9a2d-e36d611c13b9" name="Glot">
+      <concept id="6801643125350778724" name="Glot.structure.Index" flags="ng" index="2pTCO6">
+        <child id="6801643125350857692" name="individuals" index="2pTV6Y" />
+      </concept>
+      <concept id="6801643125350857691" name="Glot.structure.Individual" flags="ng" index="2pTV6T" />
+      <concept id="6801643125351612390" name="Glot.structure.PageLink" flags="ng" index="2pUNm4">
+        <reference id="6801643125351612391" name="page" index="2pUNm5" />
+      </concept>
       <concept id="2235370616159566896" name="Glot.structure.Attribute" flags="ng" index="12zdQb">
         <property id="7791759356967454818" name="isPrimaryKey" index="FvIIS" />
         <property id="2235370616159566897" name="type" index="12zdQa" />
@@ -33,6 +40,7 @@
         <child id="5441354496059082899" name="columns" index="3x41I6" />
       </concept>
       <concept id="3796981848804124687" name="Glot.structure.Page" flags="ng" index="3S8JVg">
+        <child id="6801643125351612394" name="links" index="2pUNm8" />
         <child id="5441354496059083015" name="contents" index="3x41Ci" />
       </concept>
       <concept id="3796981848804203971" name="Glot.structure.Element" flags="ng" index="3S9gGs">
@@ -191,25 +199,6 @@
     </node>
     <node concept="3S8JVg" id="3g7559AAbiX" role="3S8J4p">
       <property role="TrG5h" value="Home" />
-      <node concept="3x4sso" id="3g7559AFR77" role="3x41Ci">
-        <property role="TrG5h" value="Article" />
-        <ref role="3x41It" node="3AgXDBUoItG" resolve="product" />
-        <node concept="3x41I3" id="6UMsfmLRNjn" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUoItS" resolve="name" />
-        </node>
-        <node concept="3x41I3" id="6UMsfmLRNjl" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUoIu0" resolve="description" />
-        </node>
-        <node concept="3x41I3" id="6UMsfmLRNjq" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUoIua" resolve="price" />
-        </node>
-        <node concept="3x41I3" id="6UMsfmLRNju" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUrUyl" resolve="discount" />
-        </node>
-        <node concept="3x41I3" id="6UMsfmLRNjz" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUscmH" resolve="gallery" />
-        </node>
-      </node>
       <node concept="3x4sso" id="6UMsfmLVC1U" role="3x41Ci">
         <property role="TrG5h" value="Brand" />
         <ref role="3x41It" node="3AgXDBUscn6" resolve="brand" />
@@ -220,6 +209,50 @@
           <ref role="3x41I2" node="6KaI3IYZsjC" resolve="url" />
         </node>
       </node>
+      <node concept="2pTCO6" id="5T$iAb7yft$" role="3x41Ci">
+        <property role="TrG5h" value="Products" />
+        <ref role="3x41It" node="3AgXDBUoItG" resolve="product" />
+        <node concept="2pTV6T" id="5T$iAb7yftA" role="2pTV6Y">
+          <property role="TrG5h" value="ProductsDetail" />
+          <ref role="3x41It" node="3AgXDBUoItG" resolve="product" />
+          <node concept="3x41I3" id="5T$iAb7yftC" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUoItN" resolve="id" />
+          </node>
+          <node concept="3x41I3" id="5T$iAb7ygic" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUoItS" resolve="name" />
+          </node>
+          <node concept="3x41I3" id="5T$iAb7ygif" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUoIu0" resolve="description" />
+          </node>
+          <node concept="3x41I3" id="5T$iAb7ygij" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUoIua" resolve="price" />
+          </node>
+          <node concept="3x41I3" id="5T$iAb7ygio" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUrUyl" resolve="discount" />
+          </node>
+          <node concept="3x41I3" id="5T$iAb7ygiu" role="3x41I6">
+            <ref role="3x41I2" node="3AgXDBUscmH" resolve="gallery" />
+          </node>
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yftE" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUoItN" resolve="id" />
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yftY" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUoItS" resolve="name" />
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yftV" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUoIu0" resolve="description" />
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yfu2" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUoIua" resolve="price" />
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yfu7" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUrUyl" resolve="discount" />
+        </node>
+        <node concept="3x41I3" id="5T$iAb7yfud" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUscmH" resolve="gallery" />
+        </node>
+      </node>
       <node concept="1Z9SbU" id="5KsOgWzgh0V" role="3x41Ci">
         <property role="TrG5h" value="LoginForm" />
         <ref role="1Z9SbT" node="WcU1PiNzYR" resolve="Login" />
@@ -227,6 +260,10 @@
       <node concept="1Z9SbU" id="5KsOgWzgGPd" role="3x41Ci">
         <property role="TrG5h" value="RegForm" />
         <ref role="1Z9SbT" node="5KsOgWzgGOY" resolve="Registration" />
+      </node>
+      <node concept="2pUNm4" id="5T$iAb7_$9i" role="2pUNm8">
+        <property role="TrG5h" value="home" />
+        <ref role="2pUNm5" node="3g7559AAbiX" resolve="Home" />
       </node>
     </node>
   </node>

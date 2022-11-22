@@ -15,64 +15,219 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="56,0,59,0" name="Glot.textGen.TextGenAspectDescriptor$CONCEPTS" />
-      <unit at="16,0,60,0" name="Glot.textGen.TextGenAspectDescriptor" />
+      <unit at="62,0,65,0" name="Glot.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,66,0" name="Glot.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:93b60dd2-8729-4eae-9b0d-5f7b7d56e644(Glot.textGen)/6801643125352868455">
+    <file name="Index_TextGen.java">
+      <node id="6801643125352868455" at="19,54,20,55" concept="7" />
+      <node id="6801643125352870409" at="20,55,21,26" concept="3" />
+      <node id="6801643125352870514" at="22,5,23,106" concept="7" />
+      <node id="6801643125352870514" at="23,106,24,70" concept="7" />
+      <node id="6801643125352870514" at="25,37,26,29" concept="3" />
+      <node id="6801643125352870514" at="27,31,28,27" concept="3" />
+      <node id="6801643125353929045" at="31,5,32,25" concept="3" />
+      <node id="6801643125353929423" at="32,25,33,142" concept="3" />
+      <node id="6801643125352878745" at="33,142,34,22" concept="3" />
+      <node id="6801643125354142163" at="35,5,36,110" concept="7" />
+      <node id="6801643125354142163" at="36,110,37,70" concept="7" />
+      <node id="6801643125354142163" at="38,37,39,29" concept="3" />
+      <node id="6801643125354142163" at="40,31,41,27" concept="3" />
+      <node id="6801643125352868455" at="48,0,49,0" concept="10" trace="columns$UMUv" />
+      <node id="6801643125352868455" at="49,0,50,0" concept="10" trace="referencedEntity$UFpZ" />
+      <node id="6801643125352868455" at="50,0,51,0" concept="10" trace="individuals$hFEh" />
+      <node id="6801643125352868455" at="54,0,55,0" concept="10" trace="name$MnvL" />
+      <node id="6801643125352870514" at="26,29,29,9" concept="5" />
+      <node id="6801643125354142163" at="39,29,42,9" concept="5" />
+      <node id="6801643125352870514" at="24,70,30,7" concept="4" />
+      <node id="6801643125354142163" at="37,70,43,7" concept="4" />
+      <node id="6801643125352870514" at="21,26,31,5" concept="0" />
+      <node id="6801643125354142163" at="34,22,44,5" concept="0" />
+      <node id="6801643125352868455" at="18,0,46,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6801643125352870514" at="27,31,28,27" />
+      <scope id="6801643125354142163" at="40,31,41,27" />
+      <scope id="6801643125352870514" at="25,37,29,9" />
+      <scope id="6801643125354142163" at="38,37,42,9" />
+      <scope id="6801643125352870514" at="24,70,30,7">
+        <var name="item" id="6801643125352870514" />
+      </scope>
+      <scope id="6801643125354142163" at="37,70,43,7">
+        <var name="item" id="6801643125354142163" />
+      </scope>
+      <scope id="6801643125352870514" at="22,5,30,7">
+        <var name="collection" id="6801643125352870514" />
+        <var name="lastItem" id="6801643125352870514" />
+      </scope>
+      <scope id="6801643125354142163" at="35,5,43,7">
+        <var name="collection" id="6801643125354142163" />
+        <var name="lastItem" id="6801643125354142163" />
+      </scope>
+      <scope id="6801643125352868455" at="19,54,44,5">
+        <var name="tgs" id="6801643125352868455" />
+      </scope>
+      <scope id="6801643125352868455" at="18,0,46,0">
+        <var name="ctx" id="6801643125352868455" />
+      </scope>
+      <unit id="6801643125352868455" at="53,0,56,0" name="Glot.textGen.Index_TextGen$PROPS" />
+      <unit id="6801643125352868455" at="47,0,52,0" name="Glot.textGen.Index_TextGen$LINKS" />
+      <unit id="6801643125352868455" at="17,0,57,0" name="Glot.textGen.Index_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6801643125352868455" at="32,39,33,35" concept="8" />
+      <scope id="6801643125352868455" at="32,39,33,35" />
+    </file>
+  </root>
+  <root nodeRef="r:93b60dd2-8729-4eae-9b0d-5f7b7d56e644(Glot.textGen)/6801643125353768661">
+    <file name="ConceptHub_TextGen.java">
+      <node id="6801643125353768661" at="16,54,17,55" concept="7" />
+      <node id="6801643125353768702" at="17,55,18,133" concept="3" />
+      <node id="6801643125353768661" at="22,0,23,0" concept="10" trace="feature$zs5u" />
+      <node id="6801643125353768661" at="26,0,27,0" concept="10" trace="name$MnvL" />
+      <node id="6801643125353768661" at="15,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6801643125353768661" at="16,54,18,133">
+        <var name="tgs" id="6801643125353768661" />
+      </scope>
+      <scope id="6801643125353768661" at="15,0,20,0">
+        <var name="ctx" id="6801643125353768661" />
+      </scope>
+      <unit id="6801643125353768661" at="21,0,24,0" name="Glot.textGen.ConceptHub_TextGen$LINKS" />
+      <unit id="6801643125353768661" at="25,0,28,0" name="Glot.textGen.ConceptHub_TextGen$PROPS" />
+      <unit id="6801643125353768661" at="14,0,29,0" name="Glot.textGen.ConceptHub_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6801643125353768661" at="28,44,29,40" concept="8" />
+      <scope id="6801643125353768661" at="28,44,29,40" />
+    </file>
+  </root>
+  <root nodeRef="r:93b60dd2-8729-4eae-9b0d-5f7b7d56e644(Glot.textGen)/6801643125353988419">
+    <file name="Individual_TextGen.java">
+      <node id="6801643125353988419" at="23,54,24,55" concept="7" />
+      <node id="6801643125353988441" at="24,55,25,26" concept="3" />
+      <node id="6801643125353988443" at="26,5,27,106" concept="7" />
+      <node id="6801643125353988443" at="27,106,28,70" concept="7" />
+      <node id="6801643125353988443" at="29,37,30,29" concept="3" />
+      <node id="6801643125353988443" at="31,31,32,27" concept="3" />
+      <node id="6801643125353988448" at="35,5,36,25" concept="3" />
+      <node id="6801643125353988450" at="36,25,37,142" concept="3" />
+      <node id="6801643125353989252" at="37,142,38,26" concept="3" />
+      <node id="6801643125354094680" at="40,39,41,179" concept="8" />
+      <node id="6801643125354100619" at="43,26,44,22" concept="3" />
+      <node id="6801643125354102015" at="44,22,45,24" concept="3" />
+      <node id="6801643125353988457" at="45,24,46,20" concept="3" />
+      <node id="6801643125353988419" at="50,0,51,0" concept="10" trace="columns$UMUv" />
+      <node id="6801643125353988419" at="51,0,52,0" concept="10" trace="referencedEntity$UFpZ" />
+      <node id="6801643125353988419" at="52,0,53,0" concept="10" trace="features$U1Wq" />
+      <node id="6801643125353988419" at="56,0,57,0" concept="10" trace="name$MnvL" />
+      <node id="6801643125353988419" at="57,0,58,0" concept="10" trace="isPrimaryKey$8T7e" />
+      <node id="6801643125353988419" at="61,0,62,0" concept="10" trace="Attribute$tV" />
+      <node id="6801643125353988443" at="30,29,33,9" concept="5" />
+      <node id="6801643125354094678" at="40,0,43,0" concept="6" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6801643125353989470" at="38,26,43,26" concept="3" />
+      <node id="6801643125353988443" at="28,70,34,7" concept="4" />
+      <node id="6801643125353988443" at="25,26,35,5" concept="0" />
+      <node id="6801643125353988419" at="22,0,48,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6801643125353988443" at="31,31,32,27" />
+      <scope id="6801643125354094679" at="40,39,41,179" />
+      <scope id="6801643125354094678" at="40,0,43,0">
+        <var name="it" id="6801643125354094678" />
+      </scope>
+      <scope id="6801643125353988443" at="29,37,33,9" />
+      <scope id="6801643125353988443" at="28,70,34,7">
+        <var name="item" id="6801643125353988443" />
+      </scope>
+      <scope id="6801643125353988443" at="26,5,34,7">
+        <var name="collection" id="6801643125353988443" />
+        <var name="lastItem" id="6801643125353988443" />
+      </scope>
+      <scope id="6801643125353988419" at="23,54,46,20">
+        <var name="tgs" id="6801643125353988419" />
+      </scope>
+      <scope id="6801643125353988419" at="22,0,48,0">
+        <var name="ctx" id="6801643125353988419" />
+      </scope>
+      <unit id="6801643125353988419" at="60,0,63,0" name="Glot.textGen.Individual_TextGen$CONCEPTS" />
+      <unit id="6801643125354094678" at="39,210,43,5" name="Glot.textGen.Individual_TextGen$1" />
+      <unit id="6801643125353988419" at="55,0,59,0" name="Glot.textGen.Individual_TextGen$PROPS" />
+      <unit id="6801643125353988419" at="49,0,54,0" name="Glot.textGen.Individual_TextGen$LINKS" />
+      <unit id="6801643125353988419" at="21,0,64,0" name="Glot.textGen.Individual_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6801643125353988419" at="34,44,35,40" concept="8" />
+      <scope id="6801643125353988419" at="34,44,35,40" />
     </file>
   </root>
   <root nodeRef="r:93b60dd2-8729-4eae-9b0d-5f7b7d56e644(Glot.textGen)/7785237472610265462">
     <file name="System_TextGen.java">
-      <node id="7785237472610265462" at="17,54,18,55" concept="7" />
-      <node id="7785237472610266086" at="18,55,19,38" concept="3" />
-      <node id="7785237472610266278" at="19,38,20,86" concept="3" />
-      <node id="7785237472610267977" at="20,86,21,26" concept="3" />
-      <node id="7785237472610328649" at="21,26,22,95" concept="3" />
-      <node id="7785237472610332881" at="22,95,23,20" concept="3" />
-      <node id="7785237472610333314" at="23,20,24,98" concept="3" />
-      <node id="7785237472610617797" at="24,98,25,20" concept="3" />
-      <node id="7785237472610268112" at="25,20,26,18" concept="3" />
-      <node id="7785237472610268226" at="26,18,27,18" concept="3" />
-      <node id="7785237472610618246" at="28,96,29,27" concept="3" />
-      <node id="7785237472610265462" at="34,0,35,0" concept="10" trace="name$MnvL" />
-      <node id="7785237472610265462" at="35,0,36,0" concept="10" trace="version$HsZv" />
-      <node id="7785237472610265462" at="36,0,37,0" concept="10" trace="subversion$hpbO" />
-      <node id="7785237472610265462" at="40,0,41,0" concept="10" trace="entities$TVOz" />
-      <node id="7785237472610618246" at="27,18,30,5" concept="4" />
-      <node id="7785237472610265462" at="16,0,32,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="7785237472610618246" at="28,96,29,27" />
-      <scope id="7785237472610618246" at="27,18,30,5">
+      <node id="7785237472610265462" at="21,54,22,55" concept="7" />
+      <node id="7785237472610266086" at="22,55,23,38" concept="3" />
+      <node id="7785237472610266278" at="23,38,24,86" concept="3" />
+      <node id="7785237472610267977" at="24,86,25,26" concept="3" />
+      <node id="7785237472610328649" at="25,26,26,95" concept="3" />
+      <node id="7785237472610332881" at="26,95,27,20" concept="3" />
+      <node id="7785237472610333314" at="27,20,28,98" concept="3" />
+      <node id="7785237472610617797" at="28,98,29,20" concept="3" />
+      <node id="7785237472610268112" at="29,20,30,18" concept="3" />
+      <node id="7785237472610268226" at="30,18,31,18" concept="3" />
+      <node id="7785237472610618246" at="32,96,33,27" concept="3" />
+      <node id="6801643125353417749" at="36,39,37,67" concept="8" />
+      <node id="6801643125353201779" at="39,9,40,27" concept="3" />
+      <node id="7785237472610265462" at="45,0,46,0" concept="10" trace="name$MnvL" />
+      <node id="7785237472610265462" at="46,0,47,0" concept="10" trace="version$HsZv" />
+      <node id="7785237472610265462" at="47,0,48,0" concept="10" trace="subversion$hpbO" />
+      <node id="7785237472610265462" at="51,0,52,0" concept="10" trace="entities$TVOz" />
+      <node id="7785237472610265462" at="52,0,53,0" concept="10" trace="pages$7NPi" />
+      <node id="7785237472610265462" at="53,0,54,0" concept="10" trace="contents$JQFG" />
+      <node id="7785237472610265462" at="57,0,58,0" concept="10" trace="Index$ii" />
+      <node id="7785237472610618246" at="31,18,34,5" concept="4" />
+      <node id="6801643125353417340" at="36,0,39,0" concept="6" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6801643125353201779" at="34,5,41,5" concept="4" />
+      <node id="7785237472610265462" at="20,0,43,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7785237472610618246" at="32,96,33,27" />
+      <scope id="6801643125353417341" at="36,39,37,67" />
+      <scope id="6801643125353201779" at="39,9,40,27" />
+      <scope id="7785237472610618246" at="31,18,34,5">
         <var name="item" id="7785237472610618246" />
       </scope>
-      <scope id="7785237472610265462" at="17,54,30,5">
+      <scope id="6801643125353417340" at="36,0,39,0">
+        <var name="it" id="6801643125353417340" />
+      </scope>
+      <scope id="6801643125353201779" at="34,5,41,5">
+        <var name="item" id="6801643125353201779" />
+      </scope>
+      <scope id="7785237472610265462" at="21,54,41,5">
         <var name="tgs" id="7785237472610265462" />
       </scope>
-      <scope id="7785237472610265462" at="16,0,32,0">
+      <scope id="7785237472610265462" at="20,0,43,0">
         <var name="ctx" id="7785237472610265462" />
       </scope>
-      <unit id="7785237472610265462" at="39,0,42,0" name="Glot.textGen.System_TextGen$LINKS" />
-      <unit id="7785237472610265462" at="33,0,38,0" name="Glot.textGen.System_TextGen$PROPS" />
-      <unit id="7785237472610265462" at="15,0,43,0" name="Glot.textGen.System_TextGen" />
+      <unit id="7785237472610265462" at="56,0,59,0" name="Glot.textGen.System_TextGen$CONCEPTS" />
+      <unit id="6801643125353417340" at="35,174,39,5" name="Glot.textGen.System_TextGen$1" />
+      <unit id="7785237472610265462" at="44,0,49,0" name="Glot.textGen.System_TextGen$PROPS" />
+      <unit id="7785237472610265462" at="50,0,55,0" name="Glot.textGen.System_TextGen$LINKS" />
+      <unit id="7785237472610265462" at="19,0,60,0" name="Glot.textGen.System_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="7785237472610265462" at="32,40,33,36" concept="8" />
-      <node id="7785237472610265462" at="41,57,42,48" concept="7" />
-      <node id="7785237472610265462" at="42,48,43,51" concept="7" />
-      <node id="7785237472610265462" at="43,51,44,84" concept="3" />
-      <node id="7785237472610265462" at="44,84,45,17" concept="2" />
-      <node id="7785237472610265462" at="49,56,50,26" concept="8" />
-      <node id="7785237472610265867" at="52,61,53,17" concept="8" />
-      <node id="7785237472610265462" at="49,0,52,0" concept="11" trace="getFileName_System#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="7785237472610265462" at="52,0,55,0" concept="11" trace="getFileExtension_System#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="7785237472610265462" at="40,58,46,7" concept="5" />
-      <scope id="7785237472610265462" at="32,40,33,36" />
-      <scope id="7785237472610265462" at="49,56,50,26" />
-      <scope id="7785237472610265462" at="52,61,53,17" />
-      <scope id="7785237472610265462" at="49,0,52,0">
+      <node id="7785237472610265462" at="38,40,39,36" concept="8" />
+      <node id="7785237472610265462" at="47,57,48,48" concept="7" />
+      <node id="7785237472610265462" at="48,48,49,51" concept="7" />
+      <node id="7785237472610265462" at="49,51,50,84" concept="3" />
+      <node id="7785237472610265462" at="50,84,51,17" concept="2" />
+      <node id="7785237472610265462" at="55,56,56,26" concept="8" />
+      <node id="7785237472610265867" at="58,61,59,17" concept="8" />
+      <node id="7785237472610265462" at="55,0,58,0" concept="11" trace="getFileName_System#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7785237472610265462" at="58,0,61,0" concept="11" trace="getFileExtension_System#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7785237472610265462" at="46,58,52,7" concept="5" />
+      <scope id="7785237472610265462" at="38,40,39,36" />
+      <scope id="7785237472610265462" at="55,56,56,26" />
+      <scope id="7785237472610265462" at="58,61,59,17" />
+      <scope id="7785237472610265462" at="55,0,58,0">
         <var name="node" id="7785237472610265462" />
       </scope>
-      <scope id="7785237472610265462" at="52,0,55,0">
+      <scope id="7785237472610265462" at="58,0,61,0">
         <var name="node" id="7785237472610265462" />
       </scope>
-      <scope id="7785237472610265462" at="41,57,45,17">
+      <scope id="7785237472610265462" at="47,57,51,17">
         <var name="ext" id="7785237472610265462" />
         <var name="fname" id="7785237472610265462" />
       </scope>
@@ -121,8 +276,8 @@
       <unit id="7785237472610680112" at="16,0,50,0" name="Glot.textGen.Entity_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="7785237472610680112" at="28,40,29,36" concept="8" />
-      <scope id="7785237472610680112" at="28,40,29,36" />
+      <node id="7785237472610680112" at="30,40,31,36" concept="8" />
+      <scope id="7785237472610680112" at="30,40,31,36" />
     </file>
   </root>
   <root nodeRef="r:93b60dd2-8729-4eae-9b0d-5f7b7d56e644(Glot.textGen)/7785237472610984788">
@@ -204,8 +359,8 @@
       <unit id="7785237472611993149" at="21,0,50,0" name="Glot.textGen.Reference_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="7785237472611993149" at="30,43,31,39" concept="8" />
-      <scope id="7785237472611993149" at="30,43,31,39" />
+      <node id="7785237472611993149" at="36,43,37,39" concept="8" />
+      <scope id="7785237472611993149" at="36,43,37,39" />
     </file>
   </root>
 </debug-info>

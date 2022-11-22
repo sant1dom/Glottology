@@ -12,7 +12,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="13,0,39,0" name="Glot.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,45,0" name="Glot.constraints.ConstraintsAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:43f481fb-cbe1-4275-a430-6cfce1240c9a(Glot.constraints)/2235370616159681733">
@@ -240,6 +240,183 @@
       <unit id="4148086398000192743" at="52,0,55,0" name="Glot.constraints.System_Constraints$PROPS" />
       <unit id="4148086398000192746" at="24,0,41,0" name="Glot.constraints.System_Constraints$Subversion_Property" />
       <unit id="4148086398000192743" at="19,0,56,0" name="Glot.constraints.System_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:43f481fb-cbe1-4275-a430-6cfce1240c9a(Glot.constraints)/6801643125350857696">
+    <file name="Index_Constraints.java">
+      <node id="6801643125350857696" at="26,30,27,29" concept="9" />
+      <node id="6801643125350900834" at="31,59,32,60" concept="9" />
+      <node id="6801643125350900834" at="35,109,36,99" concept="4" />
+      <node id="6801643125350900834" at="37,53,38,145" concept="1" />
+      <node id="6801643125350900834" at="39,7,40,20" concept="5" />
+      <node id="6801643125350901228" at="44,41,45,99" concept="5" />
+      <node id="6801643125350857696" at="51,84,52,119" concept="4" />
+      <node id="6801643125350900834" at="52,119,53,61" concept="1" />
+      <node id="6801643125350857696" at="53,61,54,22" concept="5" />
+      <node id="6801643125350857696" at="58,0,59,0" concept="7" trace="Index$ii" />
+      <node id="6801643125350857696" at="59,0,60,0" concept="7" trace="Page$MG" />
+      <node id="6801643125350857696" at="63,0,64,0" concept="7" trace="name$MnvL" />
+      <node id="6801643125350857696" at="67,0,68,0" concept="7" trace="contents$JQFG" />
+      <node id="6801643125350857696" at="26,0,29,0" concept="0" trace="Index_Constraints#()V" />
+      <node id="6801643125350900834" at="31,0,34,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6801643125350900834" at="36,99,39,7" concept="2" />
+      <node id="6801643125350901226" at="44,0,47,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6801643125350901213" at="42,91,47,22" concept="5" />
+      <node id="6801643125350857696" at="50,0,56,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6801643125350900834" at="42,0,49,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6801643125350900834" at="34,0,42,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6801643125350857696" at="26,30,27,29" />
+      <scope id="6801643125350900834" at="31,59,32,60" />
+      <scope id="6801643125350900834" at="37,53,38,145" />
+      <scope id="6801643125350901227" at="44,41,45,99" />
+      <scope id="6801643125350857696" at="26,0,29,0" />
+      <scope id="6801643125350900834" at="31,0,34,0">
+        <var name="container" id="6801643125350900834" />
+      </scope>
+      <scope id="6801643125350901226" at="44,0,47,0">
+        <var name="it" id="6801643125350901226" />
+      </scope>
+      <scope id="6801643125350857696" at="51,84,54,22">
+        <var name="properties" id="6801643125350857696" />
+      </scope>
+      <scope id="6801643125350900834" at="35,109,40,20">
+        <var name="result" id="6801643125350900834" />
+      </scope>
+      <scope id="6801643125350900959" at="42,91,47,22" />
+      <scope id="6801643125350857696" at="50,0,56,0" />
+      <scope id="6801643125350900834" at="42,0,49,0">
+        <var name="node" id="6801643125350900834" />
+        <var name="propertyValue" id="6801643125350900834" />
+      </scope>
+      <scope id="6801643125350900834" at="34,0,42,0">
+        <var name="checkingNodeContext" id="6801643125350900834" />
+        <var name="node" id="6801643125350900834" />
+        <var name="propertyValue" id="6801643125350900834" />
+      </scope>
+      <unit id="6801643125350857696" at="62,0,65,0" name="Glot.constraints.Index_Constraints$PROPS" />
+      <unit id="6801643125350857696" at="66,0,69,0" name="Glot.constraints.Index_Constraints$LINKS" />
+      <unit id="6801643125350901226" at="43,168,47,7" name="Glot.constraints.Index_Constraints$Name_Property$1" />
+      <unit id="6801643125350857696" at="57,0,61,0" name="Glot.constraints.Index_Constraints$CONCEPTS" />
+      <unit id="6801643125350900834" at="30,0,50,0" name="Glot.constraints.Index_Constraints$Name_Property" />
+      <unit id="6801643125350857696" at="25,0,70,0" name="Glot.constraints.Index_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:43f481fb-cbe1-4275-a430-6cfce1240c9a(Glot.constraints)/6801643125350905887">
+    <file name="Individual_Constraints.java">
+      <node id="6801643125350905887" at="26,35,27,34" concept="9" />
+      <node id="6801643125350905888" at="31,59,32,60" concept="9" />
+      <node id="6801643125350905888" at="35,109,36,99" concept="4" />
+      <node id="6801643125350905888" at="37,53,38,145" concept="1" />
+      <node id="6801643125350905888" at="39,7,40,20" concept="5" />
+      <node id="6801643125350905993" at="44,41,45,99" concept="5" />
+      <node id="6801643125350905887" at="51,84,52,119" concept="4" />
+      <node id="6801643125350905888" at="52,119,53,61" concept="1" />
+      <node id="6801643125350905887" at="53,61,54,22" concept="5" />
+      <node id="6801643125350905887" at="58,0,59,0" concept="7" trace="Individual$Mv" />
+      <node id="6801643125350905887" at="59,0,60,0" concept="7" trace="Index$ii" />
+      <node id="6801643125350905887" at="63,0,64,0" concept="7" trace="name$MnvL" />
+      <node id="6801643125350905887" at="67,0,68,0" concept="7" trace="individuals$hFEh" />
+      <node id="6801643125350905887" at="26,0,29,0" concept="0" trace="Individual_Constraints#()V" />
+      <node id="6801643125350905888" at="31,0,34,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6801643125350905888" at="36,99,39,7" concept="2" />
+      <node id="6801643125350905991" at="44,0,47,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6801643125350905978" at="42,91,47,22" concept="5" />
+      <node id="6801643125350905887" at="50,0,56,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6801643125350905888" at="42,0,49,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6801643125350905888" at="34,0,42,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6801643125350905887" at="26,35,27,34" />
+      <scope id="6801643125350905888" at="31,59,32,60" />
+      <scope id="6801643125350905888" at="37,53,38,145" />
+      <scope id="6801643125350905992" at="44,41,45,99" />
+      <scope id="6801643125350905887" at="26,0,29,0" />
+      <scope id="6801643125350905888" at="31,0,34,0">
+        <var name="container" id="6801643125350905888" />
+      </scope>
+      <scope id="6801643125350905991" at="44,0,47,0">
+        <var name="it" id="6801643125350905991" />
+      </scope>
+      <scope id="6801643125350905887" at="51,84,54,22">
+        <var name="properties" id="6801643125350905887" />
+      </scope>
+      <scope id="6801643125350905888" at="35,109,40,20">
+        <var name="result" id="6801643125350905888" />
+      </scope>
+      <scope id="6801643125350905956" at="42,91,47,22" />
+      <scope id="6801643125350905887" at="50,0,56,0" />
+      <scope id="6801643125350905888" at="42,0,49,0">
+        <var name="node" id="6801643125350905888" />
+        <var name="propertyValue" id="6801643125350905888" />
+      </scope>
+      <scope id="6801643125350905888" at="34,0,42,0">
+        <var name="checkingNodeContext" id="6801643125350905888" />
+        <var name="node" id="6801643125350905888" />
+        <var name="propertyValue" id="6801643125350905888" />
+      </scope>
+      <unit id="6801643125350905887" at="62,0,65,0" name="Glot.constraints.Individual_Constraints$PROPS" />
+      <unit id="6801643125350905887" at="66,0,69,0" name="Glot.constraints.Individual_Constraints$LINKS" />
+      <unit id="6801643125350905991" at="43,172,47,7" name="Glot.constraints.Individual_Constraints$Name_Property$1" />
+      <unit id="6801643125350905887" at="57,0,61,0" name="Glot.constraints.Individual_Constraints$CONCEPTS" />
+      <unit id="6801643125350905888" at="30,0,50,0" name="Glot.constraints.Individual_Constraints$Name_Property" />
+      <unit id="6801643125350905887" at="25,0,70,0" name="Glot.constraints.Individual_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:43f481fb-cbe1-4275-a430-6cfce1240c9a(Glot.constraints)/6801643125352350995">
+    <file name="PageLink_Constraints.java">
+      <node id="6801643125352350995" at="26,33,27,32" concept="9" />
+      <node id="6801643125352350996" at="31,59,32,60" concept="9" />
+      <node id="6801643125352350996" at="35,109,36,99" concept="4" />
+      <node id="6801643125352350996" at="37,53,38,145" concept="1" />
+      <node id="6801643125352350996" at="39,7,40,20" concept="5" />
+      <node id="6801643125352352339" at="44,41,45,99" concept="5" />
+      <node id="6801643125352350995" at="51,84,52,119" concept="4" />
+      <node id="6801643125352350996" at="52,119,53,61" concept="1" />
+      <node id="6801643125352350995" at="53,61,54,22" concept="5" />
+      <node id="6801643125352350995" at="58,0,59,0" concept="7" trace="PageLink$QZ" />
+      <node id="6801643125352350995" at="59,0,60,0" concept="7" trace="Page$MG" />
+      <node id="6801643125352350995" at="63,0,64,0" concept="7" trace="name$MnvL" />
+      <node id="6801643125352350995" at="67,0,68,0" concept="7" trace="links$Tn3e" />
+      <node id="6801643125352350995" at="26,0,29,0" concept="0" trace="PageLink_Constraints#()V" />
+      <node id="6801643125352350996" at="31,0,34,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6801643125352350996" at="36,99,39,7" concept="2" />
+      <node id="6801643125352352337" at="44,0,47,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6801643125352352324" at="42,91,47,22" concept="5" />
+      <node id="6801643125352350995" at="50,0,56,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6801643125352350996" at="42,0,49,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6801643125352350996" at="34,0,42,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6801643125352350995" at="26,33,27,32" />
+      <scope id="6801643125352350996" at="31,59,32,60" />
+      <scope id="6801643125352350996" at="37,53,38,145" />
+      <scope id="6801643125352352338" at="44,41,45,99" />
+      <scope id="6801643125352350995" at="26,0,29,0" />
+      <scope id="6801643125352350996" at="31,0,34,0">
+        <var name="container" id="6801643125352350996" />
+      </scope>
+      <scope id="6801643125352352337" at="44,0,47,0">
+        <var name="it" id="6801643125352352337" />
+      </scope>
+      <scope id="6801643125352350995" at="51,84,54,22">
+        <var name="properties" id="6801643125352350995" />
+      </scope>
+      <scope id="6801643125352350996" at="35,109,40,20">
+        <var name="result" id="6801643125352350996" />
+      </scope>
+      <scope id="6801643125352351060" at="42,91,47,22" />
+      <scope id="6801643125352350995" at="50,0,56,0" />
+      <scope id="6801643125352350996" at="42,0,49,0">
+        <var name="node" id="6801643125352350996" />
+        <var name="propertyValue" id="6801643125352350996" />
+      </scope>
+      <scope id="6801643125352350996" at="34,0,42,0">
+        <var name="checkingNodeContext" id="6801643125352350996" />
+        <var name="node" id="6801643125352350996" />
+        <var name="propertyValue" id="6801643125352350996" />
+      </scope>
+      <unit id="6801643125352350995" at="62,0,65,0" name="Glot.constraints.PageLink_Constraints$PROPS" />
+      <unit id="6801643125352350995" at="66,0,69,0" name="Glot.constraints.PageLink_Constraints$LINKS" />
+      <unit id="6801643125352352337" at="43,165,47,7" name="Glot.constraints.PageLink_Constraints$Name_Property$1" />
+      <unit id="6801643125352350995" at="57,0,61,0" name="Glot.constraints.PageLink_Constraints$CONCEPTS" />
+      <unit id="6801643125352350996" at="30,0,50,0" name="Glot.constraints.PageLink_Constraints$Name_Property" />
+      <unit id="6801643125352350995" at="25,0,70,0" name="Glot.constraints.PageLink_Constraints" />
     </file>
   </root>
   <root nodeRef="r:43f481fb-cbe1-4275-a430-6cfce1240c9a(Glot.constraints)/7976562090580782563">

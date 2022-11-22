@@ -18,7 +18,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Entity;
   private ConceptPresentation props_Feature;
   private ConceptPresentation props_Form;
+  private ConceptPresentation props_Index;
+  private ConceptPresentation props_Individual;
   private ConceptPresentation props_Page;
+  private ConceptPresentation props_PageLink;
   private ConceptPresentation props_Reference;
   private ConceptPresentation props_System;
 
@@ -90,6 +93,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Form = cpb.create();
         }
         return props_Form;
+      case LanguageConceptSwitch.Index:
+        if (props_Index == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Index = cpb.create();
+        }
+        return props_Index;
+      case LanguageConceptSwitch.Individual:
+        if (props_Individual == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Individual = cpb.create();
+        }
+        return props_Individual;
       case LanguageConceptSwitch.Page:
         if (props_Page == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -97,6 +114,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Page = cpb.create();
         }
         return props_Page;
+      case LanguageConceptSwitch.PageLink:
+        if (props_PageLink == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_PageLink = cpb.create();
+        }
+        return props_PageLink;
       case LanguageConceptSwitch.Reference:
         if (props_Reference == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

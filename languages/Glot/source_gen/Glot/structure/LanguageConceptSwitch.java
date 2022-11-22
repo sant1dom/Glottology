@@ -18,9 +18,12 @@ public final class LanguageConceptSwitch {
   public static final int Entity = 6;
   public static final int Feature = 7;
   public static final int Form = 8;
-  public static final int Page = 9;
-  public static final int Reference = 10;
-  public static final int System = 11;
+  public static final int Index = 9;
+  public static final int Individual = 10;
+  public static final int Page = 11;
+  public static final int PageLink = 12;
+  public static final int Reference = 13;
+  public static final int System = 14;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x28e4957b85994380L, 0x9a2de36d611c13b9L);
@@ -33,7 +36,10 @@ public final class LanguageConceptSwitch {
     builder.put(0x1f05a1bb5d897c26L, Entity);
     builder.put(0x1f05a1bb5d897c2bL, Feature);
     builder.put(0x34b196dfcc949dc0L, Form);
+    builder.put(0x5e644a62c782c764L, Index);
+    builder.put(0x5e644a62c783fbdbL, Individual);
     builder.put(0x34b196dfcc93680fL, Page);
+    builder.put(0x5e644a62c78f7fe6L, PageLink);
     builder.put(0x1f05a1bb5d897c41L, Reference);
     builder.put(0x1f05a1bb5d897c23L, System);
     myIndex = builder.seal();

@@ -32,3 +32,4 @@ CREATE TABLE user (
   email VARCHAR(255)
 )
 
+SELECT<!TextGen not found for 'Glot.structure.ConceptHub'!>,<!TextGen not found for 'Glot.structure.ConceptHub'!>,<!TextGen not found for 'Glot.structure.ConceptHub'!>,<!TextGen not found for 'Glot.structure.ConceptHub'!>,<!TextGen not found for 'Glot.structure.ConceptHub'!>,<!TextGen not found for 'Glot.structure.ConceptHub'!>;
