@@ -192,7 +192,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa92540dL);
     b.origin("r:2949c8b3-848f-4943-96d9-40c6f576f822(Glot.structure)/6801643125350778724");
     b.version(3);
-    b.aggregate("individuals", 0x5e644a62c783fbdcL).target(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x5e644a62c783fbdbL).optional(false).ordered(true).multiple(true).origin("6801643125350857692").done();
+    b.aggregate("individuals", 0x5e644a62c783fbdcL).target(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x5e644a62c783fbdbL).optional(true).ordered(true).multiple(true).origin("6801643125350857692").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIndividual() {

@@ -605,8 +605,8 @@
       <node id="6801643125350778724" at="191,39,192,76" concept="1" />
       <node id="6801643125350778724" at="192,76,193,91" concept="1" />
       <node id="6801643125350778724" at="193,91,194,17" concept="1" />
-      <node id="6801643125350857692" at="194,17,195,204" concept="1" />
-      <node id="6801643125350778724" at="195,204,196,22" concept="6" />
+      <node id="6801643125350857692" at="194,17,195,203" concept="1" />
+      <node id="6801643125350778724" at="195,203,196,22" concept="6" />
       <node id="6801643125350778724" at="188,0,198,0" concept="9" trace="createDescriptorForIndex#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6801643125350778724" at="75,39,76,30" />
       <scope id="6801643125350778724" at="188,63,196,22">

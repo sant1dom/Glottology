@@ -199,13 +199,16 @@
     </node>
     <node concept="3S8JVg" id="3g7559AAbiX" role="3S8J4p">
       <property role="TrG5h" value="Home" />
-      <node concept="3x4sso" id="6UMsfmLVC1U" role="3x41Ci">
+      <node concept="2pTCO6" id="2p4R3sWUUHH" role="3x41Ci">
         <property role="TrG5h" value="Brand" />
         <ref role="3x41It" node="3AgXDBUscn6" resolve="brand" />
-        <node concept="3x41I3" id="6UMsfmLVC1W" role="3x41I6">
+        <node concept="3x41I3" id="2p4R3sWUUHJ" role="3x41I6">
+          <ref role="3x41I2" node="3AgXDBUscnn" resolve="id" />
+        </node>
+        <node concept="3x41I3" id="2p4R3sWUUI2" role="3x41I6">
           <ref role="3x41I2" node="6KaI3IYZsjw" resolve="description" />
         </node>
-        <node concept="3x41I3" id="6UMsfmLVC26" role="3x41I6">
+        <node concept="3x41I3" id="2p4R3sWUUI5" role="3x41I6">
           <ref role="3x41I2" node="6KaI3IYZsjC" resolve="url" />
         </node>
       </node>
@@ -239,9 +242,6 @@
         </node>
         <node concept="3x41I3" id="5T$iAb7yftY" role="3x41I6">
           <ref role="3x41I2" node="3AgXDBUoItS" resolve="name" />
-        </node>
-        <node concept="3x41I3" id="5T$iAb7yftV" role="3x41I6">
-          <ref role="3x41I2" node="3AgXDBUoIu0" resolve="description" />
         </node>
         <node concept="3x41I3" id="5T$iAb7yfu2" role="3x41I6">
           <ref role="3x41I2" node="3AgXDBUoIua" resolve="price" />

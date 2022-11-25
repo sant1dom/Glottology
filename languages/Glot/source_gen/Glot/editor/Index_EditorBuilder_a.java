@@ -9,6 +9,8 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
@@ -78,10 +80,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createCollection_1());
-    editorCell.addEditorCell(createConstant_4());
+    if (nodeCondition_vwx1p9_a7a()) {
+      editorCell.addEditorCell(createConstant_4());
+    }
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createConstant_5());
     return editorCell;
+  }
+  private boolean nodeCondition_vwx1p9_a7a() {
+    return ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.individuals$hFEh)).count() > 0;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "index");
@@ -415,6 +422,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
 
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink individuals$hFEh = MetaAdapterFactory.getContainmentLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x5e644a62c782c764L, 0x5e644a62c783fbdcL, "individuals");
+    /*package*/ static final SReferenceLink referencedEntity$UFpZ = MetaAdapterFactory.getReferenceLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa92540dL, 0x4b839315aa938888L, "referencedEntity");
+    /*package*/ static final SContainmentLink columns$UMUv = MetaAdapterFactory.getContainmentLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa92540dL, 0x4b839315aa938893L, "columns");
+  }
+
   private static final class PROPS {
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
@@ -424,11 +437,5 @@ import org.jetbrains.mps.openapi.language.SConcept;
     /*package*/ static final SConcept LinkAttribute$v_ = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute");
     /*package*/ static final SConcept ConceptHub$gl = MetaAdapterFactory.getConcept(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa938896L, "Glot.structure.ConceptHub");
     /*package*/ static final SConcept Individual$Mv = MetaAdapterFactory.getConcept(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x5e644a62c783fbdbL, "Glot.structure.Individual");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SReferenceLink referencedEntity$UFpZ = MetaAdapterFactory.getReferenceLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa92540dL, 0x4b839315aa938888L, "referencedEntity");
-    /*package*/ static final SContainmentLink columns$UMUv = MetaAdapterFactory.getContainmentLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x4b839315aa92540dL, 0x4b839315aa938893L, "columns");
-    /*package*/ static final SContainmentLink individuals$hFEh = MetaAdapterFactory.getContainmentLink(0x28e4957b85994380L, 0x9a2de36d611c13b9L, 0x5e644a62c782c764L, 0x5e644a62c783fbdcL, "individuals");
   }
 }
